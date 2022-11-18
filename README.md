@@ -24,7 +24,7 @@ O projeto em si cobre somente a parte de front com algumas verificações básic
 - [x] Página de cadastro
 - [x] Página para gerenciar seus contatos 
 ---
-### Veja o projeto em ação [Aqui](https://paulo-valleriote.github.io/Pagina-De-Contatos/)
+### Veja o projeto em ação [Aqui](https://paulo-valleriote.github.io/contact-manager/)
 ---
 ### Pré-requisitos
 
