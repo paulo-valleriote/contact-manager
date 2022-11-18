@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modalStyle.css">
+</head>
+
+<body>
+    <header>
+        <img src="../assets/logo.svg" alt="logo" class="logo">
+        <img src="../assets/exit-btn-icon.svg" alt="botão de saída" class="exit">
+    </header>
+    <main class="centralized">
+        <section>
+            <input type="button" value="ADICIONAR" class="open-modal-button">
+            <table id="contacts">
+                <thead>
+                    <tr class="first-tr">
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="table">
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Modal para adicionar novos contatos na tabela -->
+    <dialog class="add-user-modal">
+        <form class="modal-form">
+            <img src="../assets/close-cross-icon.svg" alt="" class="close-modal">
+            <div class="form-title">
+                <h2>Cadastre-se</h2>
+            </div>
+            <div class="form-inputs">
+                <input type="text" name="userName" id="userName" placeholder="Nome" autocomplete="off" required>
+                <input type="email" name="userEmail" id="userEmail" placeholder="E-mail" autocomplete="off">
+                <input type="tel" name="userPhone" id="userPhone" placeholder="Telefone" autocomplete="off" required>
+            </div>
+            <div class="form-end">
+                <input type="button" value="ADICIONAR" class="submit-form">
+                <input type="button" value="LIMPAR" class="clean-inputs">
+            </div>
+        </form>
+    </dialog>
+
+    <!-- Modal para deletar as linhas da tabela -->
+    <dialog class="delete-contact-modal">
+        <form class="modal-form">
+            <img src="../assets/close-cross-icon.svg" alt="" class="close-modal">
+            <div class="form-title">
+                <h2>Confirma a exclusão?</h2>
+                <p>Deseja excluir o contato?</p>
+            </div>
+            <div class="form-end">
+                <input type="button" value="EXCLUIR" class="delete-contact-button">
+                <input type="button" value="CANCELAR" class="cancel-process">
+            </div>
+        </form>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

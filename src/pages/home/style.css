@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 24px 48px;
+
+    background-color: #134563;
+}
+
+header img:nth-of-type(2) {
+    cursor: pointer;
+}
+
+.logo {
+    margin: auto;
+}
+
+input[type='button'] {
+    width: 235px;
+
+    outline-width: 1px;
+    outline-color: rgb(144, 238, 144);
+
+    cursor: pointer;
+}
+
+main {
+    height: 90vh;
+
+    margin: auto;
+
+    width: 60%;
+}
+
+.centralized {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type='button'] {
+    margin-bottom: 32px;
+}
+
+table {
+    font-size: 12px;
+
+    border-collapse: separate;
+}
+
+table tbody,
+table thead {
+    display: table;
+    table-layout: fixed;
+
+    width: 100%;
+
+    border-spacing: 0 8px;
+}
+
+tbody>thead {
+    border-spacing: 0 30px;
+}
+
+table th,
+table td {
+    height: 46px;
+
+    padding: 32px;
+
+    text-align: left;
+
+    background-color: #F4F0F0;
+}
+
+table td {
+    background-color: #FFFAFA;
+}
+
+.open-delete-modal {
+    cursor: pointer;
+}
+
+table td img {
+    float: right;
+}

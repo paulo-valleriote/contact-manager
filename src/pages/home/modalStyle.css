@@ -1,0 +1,102 @@
+dialog[open] {
+    animation: modalFadeIn 0.8s ease normal;
+}
+
+dialog {
+    padding: 56px;
+
+    margin: auto;
+
+    border: 0;
+
+    border-radius: 8px;
+
+    box-shadow: 0 0 16px rgb(0 0 0 /.3);
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / .5);
+}
+
+.modal-form {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 450px;
+}
+
+.close-modal {
+    position: relative;
+
+    left: 220px;
+    top: -15px;
+
+    cursor: pointer;
+}
+
+.form-title {
+    margin-bottom: 32px;
+
+    text-align: center;
+}
+
+.form-title h2 {
+    font-size: 32px;
+}
+
+.form-title p {
+    margin-top: 24px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+
+    margin-bottom: 72px;
+}
+
+.form-inputs input {
+    padding: 8px;
+
+    border: 2px solid #E8E8E8;
+
+    font-size: 16px;
+
+    background-color: #FDFAFA;
+}
+
+.form-end {
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.form-end input {
+    margin: 0;
+}
+
+.form-end>input {
+    margin-bottom: 8px;
+}
+
+.form-end input:nth-child(2) {
+    background-color: var(--reject-btn-color);
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastre-se</title>
+
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/sign-pages.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <aside class="hero-banner">
+                <img src="../assets/sign-up-image.png" alt="">
+            </aside>
+            <section class="hero-form">
+                <form>
+
+                    <div class="form-title">
+                        <h2>Cadastre-se</h2>
+                    </div>
+
+                    <div class="form-inputs">
+
+                        <input type="text" name="userName" id="userName" placeholder="Nome" autocomplete="off">
+                        <input type="email" name="userEmail" id="userEmail" placeholder="E-mail" autocomplete="off">
+                        <input type="password" name="userPassword" id="userPassword" placeholder="Senha"
+                            autocomplete="off">
+
+                        <span class="password-hint">
+                            <!-- Vai aparecer quando o usuário não inserir a senha correta -->
+                            Sua senha precisa ter:
+                            <strong>Letra Maiúscula</strong> e
+                            <strong>Número</strong>
+                        </span>
+                    </div>
+
+                    <div class="form-end">
+                        <input type="submit" value="CADASTRAR" class="finish-form">
+                        <input type="button" value="CANCELAR" class="clean-inputs">
+                        <span>Já tem cadastro? <a href="../../index.html">Clique aqui!</a></span>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
