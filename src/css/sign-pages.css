@@ -9,16 +9,22 @@
 
 .hero-banner {
     grid-area: image;
+
+    display: inline-flex;
 }
 
 .hero-banner img {
     height: 100%;
+
+    flex-grow: 1;
 }
 
 .hero-form {
     grid-area: form;
 
     display: flex;
+
+    flex-grow: 1;
 
     align-items: center;
     justify-content: center;
