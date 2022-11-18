@@ -108,7 +108,7 @@ document.querySelector('.finish-form')
         e.stopPropagation()
 
         if (account.email && account.password) {
-            return window.location = './../../../../projeto-pagina-login/index.html'
+            return window.location = './../../../index.html'
         }
 
         return window.alert('Verifique as informações inseridas!')
