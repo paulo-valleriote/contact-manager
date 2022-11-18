@@ -1,5 +1,5 @@
 const exitPage = document.querySelector('.exit')
-exitPage.onclick = () => window.location = '../../index.html'
+exitPage.onclick = () => window.location = '../../../index.html'
 
 const closeModalButton = document.querySelectorAll('.close-modal')
 

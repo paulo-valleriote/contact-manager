@@ -91,7 +91,7 @@ document.querySelector('.finish-form')
         e.stopPropagation()
 
         if (account.email && account.password) {
-            return window.location = './pages/home/index.html'
+            return window.location = 'src/pages/home'
         }
 
         return window.alert('Entre com suas credênciais.')
