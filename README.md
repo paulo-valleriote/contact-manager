@@ -1,8 +1,7 @@
 # Projeto Prático - Front-End
 ## Gerenciador de Contatos (Sign Up, Sign In, Home)
-Exercicio do curso de Desenvolvimento de Software da Cubos Academy
+ Exercicio do curso de Desenvolvimento de Software da Cubos Academy
 
----
  Tabela de conteúdos
  ====
  <!--ts-->
