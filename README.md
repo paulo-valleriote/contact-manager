@@ -5,20 +5,15 @@ Exercicio do curso de Desenvolvimento de Software da Cubos Academy
 ---
  Tabela de conteúdos
  ====
-- [Projeto Prático - Front-End](#projeto-prático---front-end)
-  - [Gerenciador de Contatos (Sign Up, Sign In, Home)](#gerenciador-de-contatos-sign-up-sign-in-home)
-- [Tabela de conteúdos](#tabela-de-conteúdos)
-      - [Status: Parcialmente Concluído](#status-parcialmente-concluído)
-    - [Features](#features)
-  - [- [x] Página para gerenciar seus contatos](#--x-página-para-gerenciar-seus-contatos)
-  - [### Veja o projeto em ação aqui](#-veja-o-projeto-em-ação-aqui)
-    - [Pré-requisitos](#pré-requisitos)
-    - [Tecnologias](#tecnologias)
-  - [- JavaScript](#--javascript)
-    - [Autor](#autor)
-      - [Paulo Valleriote](#paulo-valleriote)
-        - [Desenvolvedor Full-Stack em Formação](#desenvolvedor-full-stack-em-formação)
-          - [Cursando Desenvolvimento de Software na Cubos Academy](#cursando-desenvolvimento-de-software-na-cubos-academy)
+ <!--ts-->
+* [Projeto Prático - Front-End](#projeto-prático---front-end)
+* [Status](#status-parcialmente-concluído)
+* [Features](#features)
+* [Veja o projeto](#veja-o-projeto-em-ação-aqui)
+* [Tecnologias](#tecnologias)
+  * [Pré-requisitos](#pré-requisitos)
+* [Autor](#autor)
+<!--te-->
 
 ---
 #### Status: Parcialmente Concluído
